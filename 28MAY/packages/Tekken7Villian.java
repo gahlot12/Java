@@ -1,10 +1,11 @@
+// Villains.java
 package Tekken7;
 
-class Villians {
+public class Tekken7Villian {
     public static void main(String[] args) {
-        String[] villians = {"Heihachi","Kazuya"};
-        for(int i = 0; i < villians.length; i++){
-            System.out.println(villians[i]);
+        String[] villains = {"Heihachi","Kazuya"};
+        for(int i = 0; i < villains.length; i++){
+            System.out.println(villains[i]);
         }
     }
 }

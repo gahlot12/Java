@@ -1,10 +1,11 @@
+// Heros.java
 package Tekken7;
 
-class Heros {
+public class Tekken7Character {
     public static void main(String[] args) {
-        String[] Heros = {"ASUKA KAZAMA", "FENG WEI", "KAZUYA MISHIMA", "MARSHALL LAW", "HWOARANG"};
-        for(int i = 0; i < Heros.length; i++){
-            System.out.println(Heros[i]);
+        String[] heroes = {"ASUKA KAZAMA", "FENG WEI", "KAZUYA MISHIMA", "MARSHALL LAW", "HWOARANG"};
+        for(int i = 0; i < heroes.length; i++){
+            System.out.println(heroes[i]);
         }
     }
 }
