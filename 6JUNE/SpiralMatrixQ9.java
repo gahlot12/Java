@@ -1,6 +1,6 @@
 public class SpiralMatrixQ9 {
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         int[][] arr = new int[n][n];
         int total = n * n;
 
