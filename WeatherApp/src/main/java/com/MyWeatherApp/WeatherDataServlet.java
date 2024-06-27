@@ -26,7 +26,7 @@ public class WeatherDataServlet extends HttpServlet {
         String latitude = request.getParameter("lat");
         String longitude = request.getParameter("lon");
         String cityName = request.getParameter("cityName"); // For city name search
-        String APIKey = "24d3c018caabc4ce62383f54acff7d81"; // Replace with your OpenWeatherMap API key
+        String APIKey = ""; // Replace with your OpenWeatherMap API key
 
         // Validate inputs
         if ((latitude == null || latitude.isEmpty() || longitude == null || longitude.isEmpty()) && (cityName == null || cityName.isEmpty())) {
